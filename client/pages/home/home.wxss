@@ -1,0 +1,17 @@
+.background-wrap .dog {
+	left: -208rpx;
+	top: 420rpx;
+	width: 490rpx;
+	height: 630rpx;
+}
+.background-wrap .cat {
+	top: 524rpx;
+	right: -190rpx;
+	width: 444rpx;
+	height: 462rpx;
+}
+.upload-btn {
+	position: absolute;
+	bottom: 120rpx;
+	left: 125rpx;
+}

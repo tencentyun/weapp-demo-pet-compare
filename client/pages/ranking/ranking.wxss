@@ -1,0 +1,102 @@
+.title {
+	position: relative;
+	font-size: 50rpx;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 60rpx;
+	margin-bottom: 40rpx;
+}
+.ranking {
+	position: relative;
+	background: #FFFFFF;
+	border-radius: 10rpx;
+	width: 600rpx;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.ranking-list {
+	height: 600rpx;
+	margin-bottom: 20rpx;
+	padding-top: 40rpx;
+	padding-bottom: 40rpx;
+}
+.ranking-line {
+	height: 110rpx;
+	padding-top: 25rpx;
+	padding-bottom: 25rpx;
+}
+.btn-wrap {
+	margin-top: 78rpx;
+}
+.list-item {
+	height: 60rpx;
+	padding-left: 30rpx;
+	padding-right: 40rpx;
+	margin-bottom: 30rpx;
+}
+.list-item:last-child {
+	margin-bottom: 0;
+}
+.list-item .item-index {
+	display: inline-block;
+	font-size: 32rpx;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-align: center;
+	color: #999999;
+	vertical-align: middle;
+	margin-right: 25rpx;
+}
+.list-item .item-index.color1 {
+	color: #FF3B36;
+}
+.list-item .item-index.color2 {
+	color: #F77626;
+}
+.list-item .item-index.color3 {
+	color: #F3B836;
+}
+.list-item .item-avatar {
+	display: inline-block;
+	background: #D8D8D8;
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 60rpx;
+	overflow: hidden;
+	vertical-align: middle;
+	margin-right: 25rpx;
+}
+.list-item .text {
+	display: inline-block;
+	font-size: 28rpx;
+	color: #000000;
+	letter-spacing: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.list-item .text .inner-text {
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-align: left;
+}
+.list-item .text .inner-text.ellipsis {
+	max-width: 120rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.list-item .text .inner-text.margin {
+	margin: 0 8rpx;
+}
+.list-item .rate {
+	float: right;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #29228B;
+	letter-spacing: 0;
+	text-align: center;
+	vertical-align: middle;
+}

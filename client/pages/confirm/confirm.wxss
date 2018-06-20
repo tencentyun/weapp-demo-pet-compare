@@ -1,0 +1,25 @@
+.image-previewer {
+	position: relative;
+	margin-left: 160rpx;
+	margin-top: 160rpx;
+	width: 430rpx;
+	height: 430rpx;
+	background-color: #fff;
+	padding: 15rpx;
+	box-sizing: border-box;
+}
+.image-previewer .img {
+	width: 400rpx;
+	height: 400rpx;
+	background-color: #efefef;
+	margin-left: 15rpx;
+	margin-top: 15rpx;
+}
+.btn-wrap {
+	margin-top: 73rpx;
+	width: 100%;
+	text-align: center;
+}
+.btn-wrap .btn:first-child {
+	margin-bottom: 36rpx;
+}

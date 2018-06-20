@@ -1,0 +1,10 @@
+<view class="body-wrap">
+	<view class="background-wrap">
+		<image src="/images/bg.svg" class="background" mode="aspectFill"/>
+		<image src="/images/home/logo.svg" class="logo"/>
+		<view class="power-by">copyright © 2018 腾讯云 & 微信</view>
+		<image src="/images/home/dog-left.svg" class="dog"/>
+		<image src="/images/home/cat-right.svg" class="cat"/>
+	</view>
+	<button bindgetuserinfo="addImage" open-type="getUserInfo" class="upload-btn btn colorful report-home_btn_click" hover-class="button-hover">开始测试</button>
+</view>

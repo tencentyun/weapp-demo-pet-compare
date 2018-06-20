@@ -1,0 +1,86 @@
+.body-wrap .background-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.body-wrap .background-wrap image,
+.body-wrap .background-wrap view {
+	position: absolute;
+}
+.body-wrap .background-wrap .background {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 750rpx;
+}
+.body-wrap .background-wrap .cover {
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.body-wrap .background-wrap .power-by {
+	bottom: 40rpx;
+	width: 100%;
+	opacity: 0.6;
+	font-size: 24rpx;
+	color: #FFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+.body-wrap .background-wrap .logo {
+	width: 467rpx;
+	height: 423rpx;
+	top: 60rpx;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+.btn {
+	width: 500rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	border-radius: 100rpx;
+	font-size: 34rpx;
+	letter-spacing: 0;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+}
+.btn.colorful {
+	background-image: -webkit-linear-gradient(359deg, #FFA247 16%, #FE3EAD 89%);
+	background-image: linear-gradient(-269deg, #FFA247 16%, #FE3EAD 89%);
+	color: #fff;
+}
+button {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+button::after {
+	content: '';
+	border: none;
+}
+button[disabled]:not([type]) {
+	color: #000;
+	background-color: #fff;
+	opacity: .6;
+}
+button[disabled]:not([type]).btn-primary {
+	color: #fff;
+	background-color: #006eff;
+}
+button.button-hover::before {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 100rpx;
+}

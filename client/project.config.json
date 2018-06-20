@@ -1,0 +1,57 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wx2842e935b0d7966d",
+	"projectname": "demo-app",
+	"svr": "",
+	"client": "",
+	"qcloudRoot": "",
+	"miniprogramRoot": "",
+	"pluginRoot": "",
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "群分享",
+					"pathName": "pages/ranking/ranking",
+					"query": "",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群3",
+						"shareName": "nDe1HLeJT6jYs7MF50GMVWV660crlUnmjJNcEigsaxc@cr4dev",
+						"shareKey": "Yj7uwatNvYCHSN4h41D8dwf8RYsMydHjqK0m75VPbA6fFBD5B2RRR9bE2Lv3-9Erj3pHcAEPpgq0aUslPAD71w~~"
+					}
+				}
+			]
+		}
+	}
+}

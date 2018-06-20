@@ -1,0 +1,15 @@
+<view class="body-wrap">
+	<view class="background-wrap">
+		<image src="/images/bg.svg" class="background" mode="aspectFill"/>
+		<view class="cover"/>
+		<view class="power-by">copyright © 2018 腾讯云 & 微信</view>
+	</view>
+
+	<view class="image-previewer">
+		<canvas canvas-id="canvas" style="width: 400rpx; height: 400rpx;"/>
+	</view>
+	<view class="btn-wrap">
+		<button bindtap="confirm" class="btn colorful report-confirm_submit_btn_click" hover-class="button-hover">提交</button>
+		<button bindtap="reset" class="btn" hover-class="button-hover">重新选择</button>
+	</view>
+</view>

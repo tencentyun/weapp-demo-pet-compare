@@ -1,0 +1,14 @@
+.result-viewer {
+	position: relative;
+	width: 630rpx;
+	height: 620rpx;
+	margin: 110rpx auto 0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.btn-wrap {
+	margin-top: 80rpx;
+}
+.btn-wrap .btn:first-child {
+	margin-bottom: 36rpx;
+}

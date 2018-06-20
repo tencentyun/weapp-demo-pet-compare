@@ -1,0 +1,15 @@
+<view class="body-wrap">
+	<view class="background-wrap">
+		<image src="/images/bg.svg" class="background" mode="aspectFill"/>
+		<view class="cover"/>
+		<view class="power-by">copyright © 2018 腾讯云 & 微信</view>
+	</view>
+
+	<view class="result-viewer">
+		<canvas canvas-id="result-canvas" class="result-canvas" style="width: 630rpx; height: 620rpx;" bindlongtap="saveImage"/>
+	</view>
+	<view class="btn-wrap">
+		<button bindtap="retry" class="btn colorful report-result_share_btn_click" hover-class="button-hover">再测一次</button>
+		<button class="btn" open-type="share" hover-class="button-hover">分享给群好友</button>
+	</view>
+</view>

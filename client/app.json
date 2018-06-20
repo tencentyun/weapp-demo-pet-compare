@@ -1,0 +1,8 @@
+{
+	"pages": [
+		"pages/home/home",
+		"pages/confirm/confirm",
+		"pages/result/result",
+		"pages/ranking/ranking"
+	]
+}

@@ -1,0 +1,61 @@
+<svg width="490" height="630" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient x1="50%" y1="4.1%" x2="50%" y2="92.4%" id="a">
+			<stop stop-color="#E1A732" offset="0%"/>
+			<stop stop-color="#CF7D1E" offset="100%"/>
+		</linearGradient>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="b">
+			<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1" result="shadowMatrixOuter1"/>
+			<feMerge>
+				<feMergeNode in="shadowMatrixOuter1"/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+		<linearGradient x1="53.2%" y1="8.4%" x2="56.5%" y2="81%" id="c">
+			<stop stop-color="#CE8831" offset="0%"/>
+			<stop stop-color="#AA6226" offset="100%"/>
+		</linearGradient>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+			<stop stop-color="#403F3D" offset="0%"/>
+			<stop stop-color="#32312F" offset="100%"/>
+		</linearGradient>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+			<stop stop-color="#EECF6D" offset="0%"/>
+			<stop stop-color="#D5A445" offset="100%"/>
+		</linearGradient>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<path d="M12.1 162.7a114.8 114.8 0 0 1 2-84.9c-6-35.9-6-59-.3-69.4C19-1.1 34.4 4.7 60 25.8a99 99 0 0 1 91.5-3.2c24.8-21.3 39.8-27.2 45-17.6 5.4 9.7 6.3 30.8 2.5 63.1a113.9 113.9 0 0 1 11.3 78.5c.3 91-9.3 150-28.7 177.2-16.2 22.7-29.7 43.5-71.5 47-47.8 3.8-79.8-21.7-97.9-58.4-15.3-31-15.3-80.8 0-149.7z" fill="url(#a)" transform="rotate(46 135.2 323)"/>
+		<g transform="rotate(46 26.7 351.2)">
+			<path d="M18.3 20.6c6.7-2.7 12.9-2.8 10.5-8.8-2.4-6-10.2-9.6-16.8-7a13.3 13.3 0 0 0-7.2 16.7c2.4 6 7 1.8 13.5-1z" fill="#FEFEFE"/>
+			<circle fill="#2B2A29" cx="17.4" cy="17.4" r="4"/>
+		</g>
+		<g transform="scale(-1 1) rotate(-46 24.2 476)">
+			<path d="M18.3 20.6c6.7-2.7 12.9-2.8 10.5-8.8-2.4-6-10.2-9.6-16.8-7a13.3 13.3 0 0 0-7.2 16.7c2.4 6 7 1.8 13.5-1z" fill="#FEFEFE"/>
+			<circle fill="#2B2A29" cx="17.4" cy="17.4" r="4"/>
+		</g>
+		<path d="M250.5 165.8c2 .5 3.8 1.5 5 3 1.3 1.4 2 3.2 2.4 5.2a3 3 0 0 1-1.7 3.2c-7.9 3.8-12.4 5-13.7 3.4-1.3-1.6.2-6.1 4.7-13.5a3 3 0 0 1 3.3-1.3z" fill="#EA5A4C"/>
+		<path d="M276.5 163.9c-5.3.9-9.3 0-12-2.5-4.5-4.2-3.8-11.7-2.2-14.4a4.7 4.7 0 0 1 7.4-1 1232.2 1232.2 0 0 1 11 11 3 3 0 0 1-.2 4.4l-1.3 1.2c-.8.7-1.7 1.1-2.7 1.3z" fill="#2B2A29"/>
+		<g stroke="#E2BA59" stroke-linecap="round" stroke-width="5">
+			<path d="M286.1 178a36.1 36.1 0 0 1 8 26.8M275.1 184.1a36.1 36.1 0 0 1 5.1 27.5"/>
+		</g>
+		<g stroke="#E2BA59" stroke-linecap="round" stroke-width="5">
+			<path d="M246.5 138.3a36.1 36.1 0 0 0-26.5-8.8M240 149.1a36.1 36.1 0 0 0-27.2-6"/>
+		</g>
+		<g filter="url(#b)" transform="rotate(47 -29 445)">
+			<path d="M40.7 204c-10.9-16.3-17.1-37.6-17.1-64.6C23.6 60.4 57.7 0 142.5 0c84.7 0 118.8 60.4 118.8 139.4 0 26.5-6 47.4-16.4 63.6 9.4 42.8 13.8 72.8 13.1 90.2-2.8 71.5-15.5 111.3-30.9 131.3-15.3 20-39.3 42.2-90.4 37.5-51.2-4.8-81.3-29.2-96.5-115.5-8-45.8-8-93.3.5-142.5z" fill="url(#c)"/>
+			<path d="M20.1 72.2c19.4-35.9 38.4-27.7 44.6-16 6.3 11.6 24.7 98.5 7 131.3-17.9 32.8-63 14.3-69-1.8-5.8-16-2-77.7 17.4-113.5z" fill="url(#d)"/>
+			<path d="M227 69.7c19.5-36 38.6-27.9 44.9-16.1 6.3 11.7 24.8 99.2 6.9 132.2-18 33-64.8 13.3-70.7-2.8-5.9-16.2-.7-77.2 18.9-113.3z" fill="url(#d)" transform="matrix(-1 0 0 1 492.2 0)"/>
+			<circle fill="#F46456" cx="146.8" cy="128.4" r="14.8"/>
+			<circle fill="#FFF" cx="125.1" cy="112.8" r="22.6"/>
+			<circle fill="#FFF" cx="168.5" cy="112.8" r="22.6"/>
+			<ellipse fill="#2B2A29" cx="123.5" cy="71.6" rx="8.3" ry="8.7"/>
+			<ellipse fill="#2B2A29" cx="165.9" cy="71.6" rx="8.3" ry="8.7"/>
+			<ellipse fill="#2B2A29" cx="145.9" cy="95.5" rx="15.6" ry="11.3"/>
+			<ellipse fill="#EDC767" cx="115.6" cy="46.4" rx="11.3" ry="7.4"/>
+			<ellipse fill="#EDC767" cx="171.1" cy="45.6" rx="11.3" ry="7.4"/>
+			<path d="M144 200h4.1a54 54 0 0 1 52.2 40.3 256 256 0 0 1 9.5 62.7c0 14.4-2.1 29.5-6.3 45.4A57.2 57.2 0 0 1 148 391h-2a58 58 0 0 1-54.8-39C83.8 330.2 80 309.7 80 290.4c0-17.4 3.1-34.8 9.2-52A58 58 0 0 1 144 200z" fill="url(#e)"/>
+		</g>
+	</g>
+</svg>

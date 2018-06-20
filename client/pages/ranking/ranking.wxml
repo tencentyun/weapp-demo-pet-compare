@@ -1,0 +1,41 @@
+<view class="body-wrap">
+	<view class="background-wrap">
+		<image src="/images/bg.svg" class="background" mode="aspectFill"/>
+		<view class="cover"/>
+		<view class="power-by">copyright © 2018 腾讯云 & 微信</view>
+	</view>
+
+	<view class="title">萌宠相似度排行榜</view>
+
+	<scroll-view class="ranking ranking-list" style="height: 600rpx;" scroll-y="{{true}}">
+		<view class="list-item" wx:for="{{list}}" wx:key="{{index}}">
+			<view class="item-index color{{ index + 1 }}">{{index + 1}}</view>
+			<image src="{{item.avatarUrl}}" class="item-avatar"/>
+			<view class="text">
+				<view class="inner-text ellipsis">{{item.nickName}}</view>
+				<view class="inner-text margin">VS</view>
+				<view class="inner-text">{{item.animalName}}</view>
+			</view>
+
+			<view class="rate">{{item.rate}}%</view>
+		</view>
+	</scroll-view>
+
+	<view class="ranking ranking-line" wx:if="{{currentIndex > -1}}">
+		<view class="list-item">
+			<view class="item-index color{{ currentIndex + 1 }}">{{currentIndex + 1}}</view>
+			<image src="{{list[currentIndex].avatarUrl}}" class="item-avatar"/>
+			<view class="text">
+				<view class="inner-text ellipsis">{{list[currentIndex].nickName}}</view>
+				<view class="inner-text margin">VS</view>
+				<view class="inner-text">{{list[currentIndex].animalName}}</view>
+			</view>
+
+			<view class="rate">{{list[currentIndex].rate}}%</view>
+		</view>
+	</view>
+
+	<view class="btn-wrap">
+		<button bindtap="tryAgain" class="btn colorful report-ranking_btn_click" hover-class="button-hover">{{ currentIndex > -1 ? '再测一次' : '我也要测' }}</button>
+	</view>
+</view>

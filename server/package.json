@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --ignore data/",
+    "local": "npm start -- --env=local"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cos-nodejs-sdk-v5": "^2.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "file-type": "^8.0.0",
+    "form-data": "^2.3.2",
+    "http-proxy-agent": "^2.1.0",
+    "https-proxy-agent": "^2.2.1",
+    "lowdb": "^1.0.0",
+    "md5": "^2.2.1",
+    "minimist": "^1.2.0",
+    "multiparty": "^4.1.4",
+    "pify": "^3.0.0",
+    "qcloudapi-sdk": "^0.1.6",
+    "read-chunk": "^2.1.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "session-file-store": "^1.2.0",
+    "stream-length": "^1.0.2"
+  }
+}
